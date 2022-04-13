@@ -57,7 +57,7 @@ function ResumeSample2() {
         var height = pdf.internal.pageSize.getHeight();
         pdf.addImage(imgData, "JPEG", 0, 0, width, height);
         // pdf.output('dataurlnewwindow');
-        pdf.save("resume.pdf");
+        pdf.save("resume_of_" + resumeFormInfo.fullname);
       })
       .catch(function (error) {
         console.log(error);
@@ -134,9 +134,9 @@ function ResumeSample2() {
                   <span className="small">{objective}</span>
                   <h4 className="my-2">Experiance</h4>
                   <div className="date d-flex justify-content-end my-3 mx-2">
-                    <div className="small">{from}</div>
-                    <div className="mx-1">to</div>{" "}
-                    <div className="small">{to}</div>
+                    <div className="small p-1">{from}</div>
+                    <div className="mx-1 h5">to</div>
+                    <div className="small p-1">{to}</div>
                   </div>
                   <div className="fw-bold">{position}</div>
                   <div className="my-2 text-muted">{place}</div>
