@@ -8,6 +8,8 @@ import UserContext from "../../../Context/UserContext";
 function Home() {
   const { resumeSample, setResumeSample } = useContext(UserContext);
   const { sample1, sample2 } = resumeSample;
+  console.log(sample1);
+  console.log(sample2);
   return (
     <div className="my-4">
       <div class="row">
