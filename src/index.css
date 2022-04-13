@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+.app {
+  margin-top: 5rem;
+}
+button:focus {
+  box-shadow: none !important;
+}
+
+/* NavbarMenu */
+.navlinks {
+  color: white;
+  text-decoration: none;
+  transition: 0.2s ease-out;
+  text-transform: capitalize;
+}
+.navlinks:hover,
+.droplinks:hover {
+  color: skyblue !important;
+}
+.logo {
+  color: white;
+  text-decoration: none;
+  font-size: xx-large;
+  margin-left: 2rem;
+}
+.logo:hover {
+  color: white;
+}
+.droplinks {
+  color: black;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Set the border color */
+
+Navbar.Toggle {
+  box-shadow: 0px 0px 1px 1px rgb(91, 192, 222) !important;
+}
+
+/* Home */
+.comapny-logo {
+  width: 200px;
+  height: 100px;
+}
+.get-started-logo {
+  width: 100%;
+  height: 25rem;
+  margin: auto;
+  border-radius: 0.3rem;
+  filter: brightness(30%);
+}
+.border-none {
+  border: none;
+}
+.get-started-text,
+.get-started-button {
+  position: absolute;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 35%;
+  text-align: center;
+}
+.get-started-button {
+  top: 50%;
+  width: 9rem;
+}
+.homeImage {
+  height: 15rem !important;
+}
+.homeFloatImage {
+  float: right;
+}
+
+/* Templates */
+.singlecard {
+  z-index: 1;
+  transition: all 0.2s ease-in-out;
+}
+.singlecard:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+.templateImg {
+  width: 50%;
+  float: right;
+  height: 20rem !important;
+}
+.newTemplate {
+  position: absolute;
+  display: block;
+  z-index: 1;
+  top: 40%;
+  width: 100%;
+  padding: 1rem;
+}
+
+/* Experiance */
+.dpic-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dpic {
+  height: 5.5rem !important;
+  width: 5.5rem;
+  border: 2px solid black;
+}
+.dpic2 {
+  height: 10rem !important;
+  width: 10rem;
+  border: 5px solid white;
+}
+li {
+  margin: 0.5rem;
+}
+
+/* About */
+.aboutImage {
+  width: 100%;
+  height: 18rem !important;
+}
+.aboutFloatImage {
+  float: left;
+}
+.drop:hover {
+  background-color: rgb(128, 128, 128, 0.1) !important;
+}
+.aboutcard {
+  border: none !important;
+}
+
+.cardImage {
+  height: 25rem;
+}
+.low {
+  filter: brightness(60%);
+}
+.error {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+.sample1 {
+  background-color: rgb(51, 47, 80);
+  display: flex;
+  align-content: center !important;
+  justify-content: center;
+}
+.sample2 {
+  background-color: rgb(232, 255, 224);
+}
+footer {
+  margin-top: 6rem;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
