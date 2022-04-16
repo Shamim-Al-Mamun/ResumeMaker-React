@@ -20,7 +20,8 @@ button:focus {
   text-transform: capitalize;
 }
 .navlinks:hover,
-.droplinks:hover {
+.droplinks:hover,
+#collasible-nav-dropdown:hover {
   color: skyblue !important;
 }
 .logo {
@@ -40,11 +41,11 @@ button:focus {
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-
-/* Set the border color */
-
-Navbar.Toggle {
-  box-shadow: 0px 0px 1px 1px rgb(91, 192, 222) !important;
+#collasible-nav-dropdown {
+  color: black;
+}
+#toggle {
+  background-color: skyblue !important;
 }
 
 /* Home */
@@ -166,7 +167,9 @@ li {
 footer {
   margin-top: 6rem;
 }
-
+.smallfont {
+  font-size: 12px;
+}
 @keyframes shake {
   10%,
   90% {

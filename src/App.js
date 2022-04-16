@@ -24,6 +24,7 @@ import PersonalInfo from "./components/Body/Resume_Form/PersonalInfo";
 import ExperianceInfo from "./components/Body/Resume_Form/ExperianceInfo";
 import EducationInfo from "./components/Body/Resume_Form/EducationInfo";
 import Summary from "./components/Body/Resume_Form/Summary";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
   //form values
@@ -44,8 +45,8 @@ function App() {
   };
   return (
     <>
-      <>
-        <Router>
+      <Router>
+        <ScrollToTop>
           <UserContext.Provider value={value}>
             <NavbarMenu />
             <div className="app">
@@ -68,8 +69,8 @@ function App() {
             </div>
             <Footer />
           </UserContext.Provider>
-        </Router>
-      </>
+        </ScrollToTop>
+      </Router>
     </>
   );
 }

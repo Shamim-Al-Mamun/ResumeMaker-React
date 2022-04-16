@@ -11,8 +11,8 @@ function Home() {
   console.log(sample1);
   console.log(sample2);
   return (
-    <div className="my-4">
-      <div class="row">
+    <div className="my-4 user-select-none">
+      <div class="row w-100 m-auto">
         <div class="col-sm-12 col-md-11 m-auto">
           <div class="card border-none">
             <h2 class="get-started-text text-white card-title fw-bold">

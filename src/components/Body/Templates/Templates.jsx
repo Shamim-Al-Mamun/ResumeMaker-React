@@ -115,7 +115,7 @@ function Templates() {
                 alt="mordern_resume_sample1"
               />
               <h6 className="card-title text-center">Sample 3</h6>
-              <Link className="card-link stretched-link" to="/templates"></Link>
+              <Link className="card-link stretched-link" to=""></Link>
               <button className="btn btn-info text-white">Build Now</button>
             </div>
           </div>

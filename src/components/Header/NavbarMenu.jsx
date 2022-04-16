@@ -8,26 +8,26 @@ function NavbarMenu() {
       className="user-select-none"
       collapseOnSelect
       expand="lg"
-      bg="dark"
+      bg="light"
       variant="dark"
       fixed="top"
     >
       <Container>
         <Navbar.Brand href="/">
-          <h2 className="mx-3">
+          <h2 className="mx-3 text-black">
             Resume<span className="text-info fw-bold">Maker</span>
           </h2>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle id="toggle" aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="m-auto text-center">
             <Nav.Link href="#">
-              <Link className="navlinks" to="/about">
+              <Link className="navlinks text-black" to="/about">
                 about
               </Link>
             </Nav.Link>
             <Nav.Link href="#">
-              <Link className="navlinks" to="Templates">
+              <Link className="navlinks text-black" to="Templates">
                 templates
               </Link>
             </Nav.Link>
@@ -49,7 +49,7 @@ function NavbarMenu() {
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#">
-              <Link className="navlinks" to="/contact">
+              <Link className="navlinks text-black" to="/contact">
                 contact
               </Link>
             </Nav.Link>

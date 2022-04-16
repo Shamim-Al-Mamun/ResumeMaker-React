@@ -14,7 +14,7 @@ function About() {
       <div className="row my-2">
         <div className="col-sm-10 col-md-6 col-lg-6">
           <div className="card my-3 aboutcard">
-            <i class="fa-2x fas fa-donate text-center text-info my-2"></i>
+            <i class="fa-2x fas fa-money-check-alt text-center text-info my-2"></i>
             <h6 className="card-title text-center fw-bold">
               We’re actually free
             </h6>
@@ -27,8 +27,8 @@ function About() {
         </div>
         <div className="col-sm-10 col-md-6 col-lg-6">
           <div className="card my-3 aboutcard">
-            <i class="fa-2x fas fa-edit text-center text-info my-2"></i>
-            <h className="card-title text-center fw-bold">Mordern Format</h>
+            <i class="fa-2x far fa-edit text-center text-info my-2"></i>
+            <h6 className="card-title text-center fw-bold">Mordern Format</h6>
             <p className="text-muted">
               We follow the Modern resume style where are a blend of
               contemporary style, optimal text placement, and readability for
